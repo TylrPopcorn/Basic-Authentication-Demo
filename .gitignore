@@ -1,0 +1,22 @@
+# Dependency directories
+node_modules/
+bower_components/
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional npm cache and debug
+.npm
+.cache
+
+# Build output
+dist/
+build/
