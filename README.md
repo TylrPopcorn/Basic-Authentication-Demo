@@ -3,6 +3,7 @@
 
 This basic Express application demonstrates how to implement basic authentication. Basic authentication is a simple way to verify a user's identity before granting them access to a protected resource. The provided project includes a login page, authentication logic, and handling for successful and failed login attempts. The well-commented code provides a clear, easy-to-understand example that developers can use to learn about and integrate basic authentication into their own projects.
 
+
 -----
 ## Project Setup
 - [ ] Run `npm install` to install your dependencies.
@@ -10,9 +11,22 @@ This basic Express application demonstrates how to implement basic authenticatio
 - [ ] http://localhost:3000
 <br>
 
+
 ![image](https://github.com/user-attachments/assets/44715d92-2a78-4f77-977b-d7ce2117f819)
 
 <sup>Credit goes to the original/external sources used.</sup>
+
+**Endpoints:**
+
+| #  | Method | Endpoint           | Description                                                                 |
+|----|--------|---------------------|-----------------------------------------------------------------------------|
+| 1  | GET    | `/register`                |  WILL TAKE YOU TO THE REGISTER FORM                                      |
+| 2  | GET    | `/login`           | WILL TAKE YOU TO THE LOGIN FORM                                    |
+| 3  | GET    | `/`          | DISPLAYS THE HOMEPAGE                                |
+| 4  | GET    | `/secret`            | PROVIDES A SECRET PAGE.                              |
+| 5  | POST    | `/logout`          | WILL LOG THE USER OUT                        |
+| 6  | POST    | `/login`    | DATA THAT COMES FROM THE '/login' ROUTE                                  |
+| 7  | POST   | `/register`            | DATA THAT COMES FROM THE '/register' ROUTE                              |
 
 <b>Extra Resources:
 - Documentation: https://ejs.co/
